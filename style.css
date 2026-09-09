@@ -1,0 +1,23 @@
+.titulo{
+    color: rgb(50, 57, 155);
+    text-align: center;
+}
+
+.subtitulo{
+    color: rgb(56, 39, 133);
+    text-align: center;
+}
+
+.corpo{
+    background-color: rgb(130, 150, 167);
+}
+
+.texto-1{
+    color: rgb(56, 39, 133);
+    text-align: center;
+    font-size: 150%;
+}
+
+header{
+    background-color: rgb(72, 180, 243);
+}
