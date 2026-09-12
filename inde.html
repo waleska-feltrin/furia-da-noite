@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>furia da noite</title>
     <link rel="stylesheet" href="style.css">
+ 
 </head>
-<body class="corpo"> 
+ <body class="corpo"> 
 
-    <header>
+<header>
     <h1 class="titulo">Furia da Noite</h1>
     <h2 class="subtitulo">Tudo o que você precisa saber sobre o Fúria da Noite em um só lugar.</h2>
 </header>
@@ -20,7 +21,38 @@
         Após ser ferido e perder parte de sua cauda em uma armadilha, ele desenvolve uma conexão profunda com o jovem viking Soluço, 
         que constrói uma prótese mecânica para que ambos possam voar juntos. Ao longo da trilogia, Banguela evolui de uma criatura temida a um protetor leal, 
         tornando-se o Alfa de todos os dragões e provando que a empatia e a amizade são mais fortes do que séculos de guerra.</p>
+        <p class="artigo-autor">Por: Waleska Feltrin </p>
+        
+        <article>
+            <img src="banguela.jpeg" alt="">
+            <div>
+                <h2>"Banguela"</h2>
+                <p></p>
+                <button>"❤️​"<span>0</span></button>
+                <button>"👍🏿"<samp>0</samp></button>
+
+            </div>
+        </article>
     </main>
     
-</body>
+ </body>
+
+ <script>
+    const botoes = document.querySelectorAll("button");
+    botoes.forEach(function(botao){
+        let curtiu = false;
+        botao.addEventListiner("click", botaoClicado);
+        function botaoClicado(){
+            console.log("fui clicado");
+            let texto = botao.querySelector("sapn");
+            if(curtiu === false){
+                texto.textContent++;
+                curtiu = true;
+            } else{
+                texto.textContent--;
+                curtiu = false;
+            }
+        }
+    } )
+ </script>
 </html>

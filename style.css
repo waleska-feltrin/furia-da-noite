@@ -13,11 +13,33 @@
 }
 
 .texto-1{
-    color: rgb(56, 39, 133);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 150%;
 }
 
 header{
     background-color: rgb(72, 180, 243);
+    color: blue;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main{
+    background-color: rgb(63, 63, 139);
+    color: rgb(0, 0, 0);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+article{
+    display: flex;
+}
+
+img{
+    width: 500px;
+    height: 250px;
 }
