@@ -1,13 +1,23 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+
 .titulo{
     color: rgb(50, 57, 155);
-    text-align: center 
+    text-align: center ;
+    font-family: Finger Paint;
+    font-size: 400%;
 }
 
 .subtitulo{
     color: rgb(56, 39, 133);
     text-align: center;
+    font-family: Playpen Sans;
+    font-size: 150%;
 }
 
 .corpo{
@@ -18,6 +28,7 @@
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 150%;
+    font-family: limelight;
 }
 
 header{
@@ -49,4 +60,19 @@ img{
 .banguela{
     color: rgb(0, 0, 0);
     text-align: center;
+    font-family: Finger Paint;
+    font-size: 200%;
+}
+
+.titulo-2{
+    color: black;
+    text-align: center;
+    font-size: 150%;
+    font-family: limelight;
+}
+
+.artigo-autor{
+    color: black;
+    font-size: 100%;
+    font-family: limelight;
 }
